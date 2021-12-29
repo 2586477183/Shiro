@@ -6,7 +6,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
+/**
+ * 页面跳转控制器
+ */
 public class IndexController {
+
 
     @RequestMapping("/")
     public String login(User user) {
